@@ -1,5 +1,5 @@
 <?php
-// Incluir conexión a la base de datos
+//añadir una conextion a database
 $servidor = "localhost";//ip direccion
 $basededatos = "facturacion";
 $usuario = "root";
