@@ -1,0 +1,64 @@
+body{
+    background-image: url('https://docuten.com/wp-content/uploads/2021/03/factura-consolidacion-ue-ventajas.jpg');
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(199, 199, 199, 0.894); /* Color negro con 50% de opacidad */
+    z-index: -1; /* Asegura que el filtro quede detrás del contenido */
+}
+h1,h2,h3,h4,h5{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+.form-control{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.form-group{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.mt-3{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.col-md-6{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.btn{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.bg-info{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

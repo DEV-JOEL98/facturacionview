@@ -1,0 +1,82 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+container{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;S
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    border-color: #b4f7b6;
+}
+h3{
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 8px;
+    color: #555;
+}
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #00833c;
+    color: #fff;
+    border: none;
+}
+input[type="submit"]:hover {
+    background-color: #00833c;
+}
+/* Agrega estilos para el enlace de "Olvidé mi contraseña" o "Registrarse" */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 200px; /*Ajusta el tamaño según tus necesidades*/
+    height: auto;
+    position: relative;
+}
+table { /*ES NECESARIO REVISAR LAS PRINCIPALES FUENTES EN ESPECÍFICO*/
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+container2{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    border-color: #b4f7b6;
+}
