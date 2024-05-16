@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!--TIPO DE FUENTE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!--ICONOS FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-oJz2iZb+4Qz8D7FvT9XyIJHsfN8l7v6oLBOq9U9Mdxj2vLQLpN0Mhvwl3nE9V6P1rEsuKUCI+2B3O1N6wZwGRg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--INSERCIÓN DE CSS-->
+    <link rel="stylesheet" type="text/css" href="css/diseno.css"> <!--TOMAR EN CUENTA-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <div class="container mb-auto">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <img src="img/alimeclogo.png" alt="Logo de la Empresa" style="width: 160px;">
+                        <h4>Documentos Electrónicos</h4>
+                    </div>
+                    <div class="card-body Larger shadow"> <!--Larger shadow para desvanecido-->
+                        <div class="text-center mb-2 ">
+                            <h3>Iniciar Sesión</h3>
+                        </div>                                               
+                        <form action="prueba.php" method="POST">
+                            <div class="form-group">
+                                <label for="username">Usuario</label>
+                                <input type="text" class="form-control" id="username" name="cedula"
+                                    placeholder="1700000000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="**********" required>
+                            </div>
+                            <div class="row align-items-center py-3">
+                                <div class="col-md-6">
+                                    <a href="restablecer.html">¿Olvidaste tu contraseña?</a>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <a href="registrar.html">Registrar</a>
+                                </div>
+                            </div>        
+                            <br>
+                            <button type="submit" class="btn btn-success btn-lg btn-block">Ingresar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-info text-light mt-auto">
+        <div class="container">
+            <div class="row py-3">
+                <div class="col-md-6 text-md-left text-center">
+                    <p class="mb-0">© 2024 ALIMEC.</p>
+                </div>
+                <div class="col-md-6 text-md-right text-center">
+                    <a href="#" class="text-light mr-3">Todos los derechos reservados.</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- PARA POSICIONAR EL CURSOR -->
+    <script>
+        window.onload = function () {
+            document.getElementById('username').focus();
+        };
+    </script>
+    <!-- Enlace a Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
